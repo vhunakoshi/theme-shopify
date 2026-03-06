@@ -1,0 +1,11 @@
+{
+    "name": "Custom 404",
+    // "layout": "app", // ../layout/app.liquid
+    // "wrapper": "div#404_template.custom-class[custom-attribute=hello]",
+    "sections": {
+        "not-found": {
+            "type": "custom-404" // ../sections/custom-404.liquid
+        }
+    },
+    "order": ["not-found"]
+}
